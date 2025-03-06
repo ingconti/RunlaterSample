@@ -1,4 +1,4 @@
-package com.example.runlatersample;
+package it.polimi.runlatersample;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

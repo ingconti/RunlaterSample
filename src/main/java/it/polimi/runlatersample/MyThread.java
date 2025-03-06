@@ -1,4 +1,4 @@
-package com.example.runlatersample;
+package it.polimi.runlatersample;
 
 import javafx.application.Platform;
 import javafx.stage.Stage;
@@ -15,7 +15,7 @@ public class MyThread extends Thread {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
-                System.out.println(e);
+                System.out.println(e.toString());
 
             }
             System.out.println(i);
